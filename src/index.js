@@ -7,3 +7,11 @@ const container = document.getElementById('root')
 const root = createRoot(container);
 
 root.render(<App/>);
+
+/*
+* вызвать в counter.jsx onIncrement и onDecrement
+* которые нужно передать через props
+* эти методы нужно реализовать в countersList
+* и эти методы должны обновлять значение value в состоянии counters
+*
+* */
